@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #dfe5ec; /* світло-сірий фон як на фото */
+  font-family: Arial, sans-serif;
+}
+
+.friend-list {
+  width: 450px;
+  margin: 40px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 18px 24px;
+  margin-bottom: 18px;
+  border-radius: 4px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08); /* м'яка тінь */
+}
+
+.status {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.online {
+  background-color: #4caf50;
+}
+
+.offline {
+  background-color: #f44336;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 6px;
+  margin-right: 24px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 400;
+  color: #212121; /* темно-сірий текст */
+  margin: 0;
+}
