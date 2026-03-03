@@ -2,6 +2,7 @@
   "name": "hw-4-frontend-4.2",
   "version": "0.1.0",
   "private": true,
+  "homepages":"https://iwan20131202.github.io/hw-4-frontend/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
